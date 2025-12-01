@@ -50,7 +50,7 @@ npm run build
 # Output will be in /out directory
 ```
 
-## Deploy to Cloudflare Pages
+## Deploy to Cloudflare Workers (with Assets)
 
 ### Via Command Line
 
@@ -71,7 +71,7 @@ npm run build
 
 4. Deploy:
 ```bash
-wrangler pages deploy out --project-name=zednine-portfolio
+wrangler deploy
 ```
 
 ### Via CI/CD (GitHub Actions, etc)
@@ -80,10 +80,12 @@ In your CI/CD workflow, use:
 
 ```bash
 npm run build
-npx wrangler pages deploy out --project-name=zednine-portfolio
+npx wrangler deploy
 ```
 
-Make sure to set the `CLOUDFLARE_API_TOKEN` or `CLOUDFLARE_ACCOUNT_ID` environment variables in your CI/CD settings.
+Make sure to set these environment variables in your CI/CD settings:
+- `CLOUDFLARE_API_TOKEN`
+- `CLOUDFLARE_ACCOUNT_ID`
 
 ## Pages
 
