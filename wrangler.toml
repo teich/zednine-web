@@ -1,0 +1,7 @@
+# ABOUTME: Cloudflare Workers Sites configuration for deploying static site
+# ABOUTME: Points to the Next.js static export output directory
+name = "zednine-portfolio"
+compatibility_date = "2024-11-01"
+
+[site]
+bucket = "./out"
