@@ -1,11 +1,11 @@
 // ABOUTME: Portfolio page displaying grid of all woodwork projects
 // ABOUTME: Includes page heading and PortfolioGrid component with lightbox
-import PortfolioGrid from '@/components/PortfolioGrid'
+import PortfolioGrid from "@/components/PortfolioGrid";
 
 export const metadata = {
-  title: 'Portfolio - Zednine',
-  description: 'Browse our custom woodworking projects',
-}
+  title: "Portfolio - Zed9",
+  description: "Browse our custom woodworking projects",
+};
 
 export default function Portfolio() {
   return (
@@ -17,5 +17,5 @@ export default function Portfolio() {
         <PortfolioGrid />
       </div>
     </main>
-  )
+  );
 }

@@ -1,6 +1,6 @@
 // ABOUTME: Hero section with full-screen background image and text overlay
-// ABOUTME: Features IMG_8308.jpeg with Zednine branding and scroll indicator
-import Image from 'next/image'
+// ABOUTME: Features IMG_8308.jpeg with Zed9 branding and scroll indicator
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="absolute inset-0 -z-10">
         <Image
           src="/images/IMG_8308.jpeg"
-          alt="Zednine woodworking craftsmanship"
+          alt="Zed9 woodworking craftsmanship"
           fill
           className="object-cover"
           priority
@@ -21,7 +21,7 @@ export default function Hero() {
       {/* Hero Text */}
       <div className="text-center text-white z-10 px-4">
         <h1 className="text-5xl md:text-7xl font-bold tracking-wider mb-4">
-          ZEDNINE
+          Zed9
         </h1>
         <p className="text-xl md:text-2xl tracking-wide font-light">
           Custom Woodworking & Furniture
@@ -49,5 +49,5 @@ export default function Hero() {
         </svg>
       </a>
     </section>
-  )
+  );
 }

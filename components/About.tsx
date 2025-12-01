@@ -1,4 +1,4 @@
-// ABOUTME: About section with placeholder content about Zednine's craftsmanship
+// ABOUTME: About section with placeholder content about Zed9's craftsmanship
 // ABOUTME: Centered layout with constrained width for readability
 export default function About() {
   return (
@@ -9,13 +9,13 @@ export default function About() {
         </h2>
         <div className="space-y-6 text-gray-700 leading-relaxed">
           <p>
-            At Zednine, we believe in the timeless beauty of handcrafted
-            woodwork. Each piece we create is a testament to our commitment to
-            quality, precision, and attention to detail.
+            At Zed9, we believe in the timeless beauty of handcrafted woodwork.
+            Each piece we create is a testament to our commitment to quality,
+            precision, and attention to detail.
           </p>
           <p>
-            From custom furniture to bespoke cabinetry, we work closely with
-            our clients to bring their vision to life. Whether it's a modern
+            From custom furniture to bespoke cabinetry, we work closely with our
+            clients to bring their vision to life. Whether it's a modern
             minimalist design or a classic traditional piece, our craftsmanship
             ensures lasting beauty and functionality.
           </p>
@@ -27,5 +27,5 @@ export default function About() {
         </div>
       </div>
     </section>
-  )
+  );
 }

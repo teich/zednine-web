@@ -1,6 +1,6 @@
 // ABOUTME: Main navigation component with links to home and portfolio
 // ABOUTME: Fixed position header with minimalist styling
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -11,7 +11,7 @@ export default function Navbar() {
             href="/"
             className="text-xl font-semibold tracking-wider hover:opacity-70 transition-opacity"
           >
-            ZEDNINE
+            ZED9
           </Link>
           <div className="flex gap-8">
             <Link
@@ -30,5 +30,5 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
-  )
+  );
 }

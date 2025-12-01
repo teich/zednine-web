@@ -1,6 +1,6 @@
-# Zednine Portfolio
+# Zed9 Portfolio
 
-Minimalist portfolio website for Zednine woodworking, showcasing custom furniture, cabinets, and woodwork projects.
+Minimalist portfolio website for Zed9 woodworking, showcasing custom furniture, cabinets, and woodwork projects.
 
 ## Tech Stack
 
