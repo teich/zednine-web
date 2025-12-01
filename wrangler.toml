@@ -1,6 +1,6 @@
 # ABOUTME: Cloudflare Workers with Assets configuration for deploying static site
 # ABOUTME: For Workers deployment, use: wrangler deploy
-name = "zednine-portfolio"
+name = "zednine"
 compatibility_date = "2024-11-01"
 
 [assets]
