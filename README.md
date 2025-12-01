@@ -50,7 +50,9 @@ npm run build
 # Output will be in /out directory
 ```
 
-## Deploy to Cloudflare Workers Sites
+## Deploy to Cloudflare Pages
+
+### Via Command Line
 
 1. Install Wrangler CLI (if not already installed):
 ```bash
@@ -69,10 +71,19 @@ npm run build
 
 4. Deploy:
 ```bash
-wrangler pages deploy out
+wrangler pages deploy out --project-name=zednine-portfolio
 ```
 
-Note: You can also use `wrangler deploy` depending on your Cloudflare setup.
+### Via CI/CD (GitHub Actions, etc)
+
+In your CI/CD workflow, use:
+
+```bash
+npm run build
+npx wrangler pages deploy out --project-name=zednine-portfolio
+```
+
+Make sure to set the `CLOUDFLARE_API_TOKEN` or `CLOUDFLARE_ACCOUNT_ID` environment variables in your CI/CD settings.
 
 ## Pages
 
